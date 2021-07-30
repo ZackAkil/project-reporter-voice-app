@@ -206,7 +206,6 @@ def create_doc(google_access_token):
    return doc_id
 
 def append_to_doc(google_access_token, doc_id, text):
-   #     1Zih_uBYhTI6VCeUcjkbU3KJEkOini_MD4QV6KosRokI
    
    creds = Credentials(google_access_token)
    service = build('docs', 'v1', credentials=creds)
